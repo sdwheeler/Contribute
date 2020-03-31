@@ -179,12 +179,12 @@ You can use one of the following syntaxes:
 
 Examples:
 
-- **\<xref:System.String>** displays as <xref:System.String>
+- **/<xref:System.String>** displays as <xref:System.String>
 
-- **\<xref:System.String?displayProperty=nameWithType>** displays as
+- **/<xref:System.String?displayProperty=nameWithType>** displays as
   <xref:System.String?displayProperty=nameWithType>
 
-- **\[String class](xref:System.String)** displays as [String class](xref:System.String).
+- **/[String class](xref:System.String)** displays as [String class](xref:System.String).
 
 The `displayProperty=fullName` query parameter works the same way as `displayProperty=nameWithType` for classes. That is, the link text becomes **namespace.classname**. However, for members, the link text displays as **namespace.classname.membername**, which may be undesirable.
 
@@ -263,7 +263,8 @@ To link to a method, you can either link to the general method page by adding an
 
 To link to a specific overload, add parenthesis after the method name and include the full type name of each parameter. Do not put a space character between the type names or the link won't work. For example:
 
-`<xref:System.Object.Equals(System.Object,System.Object)?displayProperty=nameWithType>` links to <xref:System.Object.Equals(System.Object,System.Object)?displayProperty=nameWithType>
+`<xref:System.Object.Equals(System.Object, System.Object)?displayProperty=nameWithType>` links to <xref:System.Object.Equals(System.Object, System.Object)?displayProperty=nameWithType>
+
 
 ## Links from includes
 
