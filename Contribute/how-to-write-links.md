@@ -179,7 +179,7 @@ You can use one of the following syntaxes:
 
 Examples:
 
-- **\<xref:System.String>** displays as [String](xref:System.String)
+- **\(xref:System.String)** displays as [String](xref:System.String)
 
 - **\(xref:System.String?displayProperty=nameWithType)** displays as [String class]
   (xref:System.String?displayProperty=nameWithType)
@@ -259,11 +259,11 @@ shown in the following example:
 
 To link to a method, you can either link to the general method page by adding an asterisk (`*`) after the method name, or to a specific overload. For example, use the general page when you want to link to the `<xref:System.Object.Equals%2A?displayProperty=nameWithType>` method without specific parameter types. The asterisk character is encoded as `%2A`. For example:
 
-`<xref:System.Object.Equals%2a?displayProperty=nameWithType>` links to <xref:System.Object.Equals%2A?displayProperty=nameWithType>
+`<xref:System.Object.Equals%2a?displayProperty=nameWithType>` links to (xref:System.Object.Equals%2A?displayProperty=nameWithType)
 
 To link to a specific overload, add parenthesis after the method name and include the full type name of each parameter. Do not put a space character between the type names or the link won't work. For example:
 
-`<xref:System.Object.Equals(System.Object,System.Object)?displayProperty=nameWithType>` links to <xref:System.Object.Equals(System.Object,System.Object)?displayProperty=nameWithType>
+`<xref:System.Object.Equals(System.Object,System.Object)?displayProperty=nameWithType>` links to (xref:System.Object.Equals(System.Object,System.Object)?displayProperty=nameWithType)
 
 ## Links from includes
 
